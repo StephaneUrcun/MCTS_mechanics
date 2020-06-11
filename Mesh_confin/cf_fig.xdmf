@@ -1,0 +1,15 @@
+<Xdmf Version="3.0">
+  <Domain>
+    <Grid Name="Grid">
+      <Geometry GeometryType="XY">
+        <DataItem DataType="Float" Dimensions="9851 2" Format="HDF" Precision="8">cf_fig.h5:/data0</DataItem>
+      </Geometry>
+      <Topology NumberOfElements="19471" TopologyType="Triangle">
+        <DataItem DataType="Int" Dimensions="19471 3" Format="HDF" Precision="8">cf_fig.h5:/data1</DataItem>
+      </Topology>
+      <Attribute AttributeType="Scalar" Center="Cell" Name="name_to_read">
+        <DataItem DataType="Int" Dimensions="19471" Format="HDF" Precision="8">cf_fig.h5:/data2</DataItem>
+      </Attribute>
+    </Grid>
+  </Domain>
+</Xdmf>
